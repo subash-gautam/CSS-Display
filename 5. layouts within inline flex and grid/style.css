@@ -1,0 +1,31 @@
+.row {
+    border: 3px solid red;
+    display: flex;
+    /* display: inline-flex; */
+}
+.box {
+    border: 3px dotted blue;
+    flex-basis: 20%;
+    margin: 2px;
+}
+/*.row {
+    border: 3px solid red;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Adjust for number of boxes */
+/*    grid-gap: 4px; /* Adjust for margin */
+/*  }
+  
+  .box {
+    border: 3px dotted blue;
+  }
+*/
+
+.row2 {
+    border: 3px solid red;
+    /* display: grid; */
+    display: inline-flex;
+}
+.box2 {
+    border: 3px dotted blue;
+    margin: 2px;
+}
