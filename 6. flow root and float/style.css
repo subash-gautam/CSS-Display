@@ -1,0 +1,9 @@
+section {
+    border: 3px solid red;
+    background-color: aqua;
+    /* overflow: auto; */
+    display: flow-root;
+}
+img {
+    float: right;
+}
