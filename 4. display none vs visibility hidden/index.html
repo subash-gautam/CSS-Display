@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>CSS : Display</title>
+    </head>
+    <body>
+        <section>
+            <h1>Section heading</h1>
+            <p>
+                Some text and <a href="#">a link</a>. Some text is
+                <em>emphasized,</em> and some is
+                <strong>strongly emphasized</strong>.
+            </p>
+            <p>
+                <a href="#">An emphasized link</a> Lorem ipsum, dolor sit amet
+                consectetur.
+            </p>
+            <p>
+                <a href="#">Attempting to make the whole paragraph a link.</a>
+            </p>
+            <h1>This is H1 tag...</h1>
+            <h3>This is h3 tag...</h3>
+        </section>
+        <style>
+            em,
+            h1 {
+                visibility: hidden; /* Visibility hidden hides element but leave the space occupied by it. */
+            }
+            strong,
+            a {
+                display: none; /* Display none hides elements as well as space occupied by it. */
+            }
+        </style>
+    </body>
+</html>
