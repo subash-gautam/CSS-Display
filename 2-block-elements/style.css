@@ -1,0 +1,15 @@
+body {
+    border: 3px solid red;
+    width: 80%; /* Width works on block elements */
+}
+section {
+    border: 3px dotted green;
+}
+h1 {
+    border: 3px dotted blue;
+}
+p {
+    border: 3px dashed blueviolet;
+    margin: 5%; /* Applied on both horizentally and vertically but in between applied only once.*/
+    padding: 5%; /* Applied on both horizentally and vertically but in between applied both time.*/
+}
