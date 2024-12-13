@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Inline Elements</title>
+    </head>
+    <body>
+        <p>
+            Some text and a <a href="#">link</a> and some texts
+            <em>emphasized text</em> and some
+            <strong>strongly emphasized text.</strong>
+        </p>
+
+        <style>
+            p {
+                border: 3px solid black;
+            }
+            p * {
+                border: 3px dotted green;
+            }
+            strong {
+                background-color: aqua;
+                padding: 4px; /* Padding of inline element over shadows 
+                nebouring elements (parents and outerward also)? */
+            }
+            em {
+                background-color: blueviolet;
+                margin: 5px; /* Margin for inline elements only works in 
+                horizental direction not in vertical one... */
+            }
+            a {
+                width: 50px; /* do not work*/
+            }
+        </style>
+    </body>
+</html>
