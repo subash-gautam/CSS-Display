@@ -10,11 +10,12 @@ li {
     border: 2px solid red;
     display: inline-block; /* vs inline*/
     margin: 0.5rem;
-    padding: 0.5rem;
 }
 a {
     text-decoration: none;
     background-color: aquamarine;
+    display: block;
+    padding: 0.5rem;
     color: blue;
 }
 a:hover {
